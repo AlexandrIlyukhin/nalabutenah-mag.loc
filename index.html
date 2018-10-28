@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Primer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script async src="maps.js"></script>
+</head>
+<body>
+<header class="header">
+    <div class="header-menu">
+        <ul class="header-menu__items">
+            <li class="header-menu__item"><img src="#" alt="Вход" class="heder-menu__icon"><a href="#"
+                                                                                              class="header-menu__text">Вход</a>
+            </li>
+            <li class="header-menu__item"><img src="#" alt="Избранное" class="heder-menu__icon"><a href="#"
+                                                                                                   class="header-menu__text">Избранное</a>
+            </li>
+            <li class="header-menu__item"><img src="#" alt="Сравнение" class="heder-menu__icon"><a href="#"
+                                                                                                   class="header-menu__text">Сравнение</a>
+            </li>
+        </ul>
+        <ul class="header-social">
+            <li class="header-social__item"><a href="#" class="header-social__icon"><img src="#" alt="вконтакте"></a>
+            </li>
+            <li class="header-social__item"><a href="#" class="header-social__icon"><img src="#" alt="фейсбук"></a></li>
+            <li class="header-social__item"><a href="#" class="header-social__icon"><img src="#" alt="твитер"></a></li>
+        </ul>
+    </div>
+    <div class="header-bottom">
+        <div class="header-logo">
+            <img src="#" alt="logo" class="header-logo__img">
+            <span class="header-logo_title">nalabuten.ah</span>
+            <span class="header-logo_subtitle">unrealizable dreams</span>
+        </div>
+        <div class="header-working">
+            <ul class="header-contacts">
+                <li class="header-contacts__item"><img src="#" alt="phone" class="header-contacts__icon">
+                    <address class="header-contacts__info"><a href="tel:tel:88006845594" class="header-contacts__link">tel:8(800)6845594</a></address>
+                </li>
+                <li class="header-contacts__item"><img src="#" alt="mailto" class="header-contacts__icon">
+                    <address class="header-contacts__info"><a href="mailto:info@nalabuten.ah" class="header-contacts__link">info@nalabuten.ah</a></address>
+                </li>
+            </ul>
+            <form action="#" class="header-search">
+                <input type="search" class="header-search__input" placeholder="Введите посиковую фразу">
+                <input type="image" class="header-search__button">
+            </form>
+        </div>
+        <a href="" class="header-basket__link">
+            <div class="header-basket__total-price">
+                <output class="header-basket__total-amount">7500</output>
+                <span class="header-basket__currency">р.</span>
+            </div>
+            <img src="#" alt="корзина" class="header-basket__icon">
+            <output class="header-basket__counter">2</output>
+        </a>
+        <!--TODO Уточнить возможно ли использовать ссылку как контейнер блока-->
+    </div>
+</header>
+<nav class="main-menu">
+    <ul class="main-menu_items">
+        <li class="main-menu-items__item"><a href="#">Главная</a></li>
+        <li class="main-menu-items__item active"><a href="#">Каталог</a></li>
+        <li class="main-menu-items__item"><a href="#">Галерея</a></li>
+        <li class="main-menu-items__item"><a href="#">Акции</a></li>
+        <li class="main-menu-items__item"><a href="#">Контакты</a></li>
+    </ul>
+</nav>
+<main class="main">
+    <section class="slider-top">
+        <img src="#" alt="назад" class="slider-top__prev">
+        <div class="slider-top-content">
+            <img src="#" alt="картинка карусели" class="slider-top-content__image">
+            <div class="slider-top-text">
+                <h1 class="slider-top-text__title">Labuten Cherry</h1>
+                <span class="slider-top-text__subtitle">новая весенняя коллекция</span>
+                <p class="slider-top-text__description">
+                    Мы рады предстваить вам новую колекцию туфель
+                    от знаменитого дизайнера-модельера Кристиана
+                </p>
+                <button class="slider-top__button">купить сейчас</button>
+            </div>
+        </div>
+        <img src="#" alt="далее" class="slider-top__next">
+    </section>
+
+    <section class="sale-block">
+        <div class="sale-item">
+            <img src="#" alt="продажа" class="sale-item__icon">
+            <h3 class="sale-item__title">Продажа</h3>
+            <span class="sale-item__subtitle">Широкий ассортимент моделей</span>
+        </div>
+        <div class="sale-item">
+            <img src="#" alt="скидки" class="sale-item__icon">
+            <h3 class="sale-item__title">Скидки</h3>
+            <span class="sale-item__subtitle">Невообразимо низкие цены</span>
+        </div>
+        <div class="sale-item">
+            <img src="#" alt="акции" class="sale-item__icon">
+            <h3 class="sale-item__title">Акции</h3>
+            <span class="sale-item__subtitle">Широкий ассортимент моделей</span>
+        </div>
+    </section>
+
+    <section class="product-category">
+        <h2 class="product-category__title">новинки</h2>
+        <div class="product-items">
+            <figure class="product-item">
+                <img src="#" alt="товар" class="product-item__image">
+                <figcaption class="product-item__title">Labuten-lady</figcaption>
+                <div class="product-item__price">
+                    <output class="product-item__amount">35000</output>
+                    <span class="product-item__currency">р.</span>
+                </div>
+                <div class="product-item__label">new</div>
+                <form class="product-checkout">
+                    <input type="image" src="#" alt="добавить в корзину" class="product-checkout__icon">
+                    <input type="image" src="#" alt="быстрый заказ" class="product-checkout__fast">
+                </form>
+            </figure>
+            <figure class="product-item">
+                <img src="#" alt="товар" class="product-item__image">
+                <figcaption class="product-item__title">Labuten-lady</figcaption>
+                <div class="product-item__price">
+                    <output class="product-item__amount">35000</output>
+                    <span class="product-item__currency">р.</span>
+                </div>
+                <div class="product-item__label">new</div>
+                <form class="product-checkout">
+                    <input type="image" src="#" alt="добавить в корзину" class="product-checkout__icon">
+                    <input type="image" src="#" alt="быстрый заказ" class="product-checkout__fast">
+                </form>
+            </figure>
+            <figure class="product-item">
+                <img src="#" alt="товар" class="product-item__image">
+                <figcaption class="product-item__title">Labuten-lady</figcaption>
+                <div class="product-item__price">
+                    <output class="product-item__amount">35000</output>
+                    <span class="product-item__currency">р.</span>
+                </div>
+                <div class="product-item__label">new</div>
+                <form class="product-checkout">
+                    <input type="image" src="#" alt="добавить в корзину" class="product-checkout__icon">
+                    <input type="image" src="#" alt="быстрый заказ" class="product-checkout__fast">
+                </form>
+            </figure>
+            <figure class="product-item">
+                <img src="#" alt="товар" class="product-item__image">
+                <figcaption class="product-item__title">Labuten-lady</figcaption>
+                <div class="product-item__price">
+                    <output class="product-item__amount">35000</output>
+                    <span class="product-item__currency">р.</span>
+                </div>
+                <div class="product-item__label">new</div>
+                <form class="product-checkout">
+                    <input type="image" src="#" alt="добавить в корзину" class="product-checkout__icon">
+                    <input type="image" src="#" alt="быстрый заказ" class="product-checkout__fast">
+                </form>
+            </figure>
+        </div>
+    </section>
+    <section class="product-category">
+        <h3 class="product-category__title">товары со скидкой</h3>
+        <div class="product-items">
+            <figure class="product-item">
+                <img src="#" alt="товар" class="product-item__image">
+                <figcaption class="product-item__title">Labuten-lady</figcaption>
+                <div class="product-item__price">
+                    <output class="product-item__amount">42700</output>
+                    <span class="product-item__currency">р.</span>
+                </div>
+                <div class="product-item__discount">
+                    <output class="product-item__amount">35000</output>
+                    <span class="product-item__currency">р.</span>
+                </div>
+                <div class="product-item__label">
+                    <span class="product-item__currency">-</span>
+                    <output class="product-item__amount">10</output>
+                    <span class="product-item__currency">%</span>
+                </div>
+                <form class="product-checkout">
+                    <input type="image" src="#" alt="добавить в корзину" class="product-checkout__icon">
+                    <input type="image" src="#" alt="быстрый заказ" class="product-checkout__fast">
+                </form>
+            </figure>
+            <figure class="product-item">
+                <img src="#" alt="товар" class="product-item__image">
+                <figcaption class="product-item__title">Labuten-lady</figcaption>
+                <div class="product-item__price">
+                    <output class="product-item__amount">42700</output>
+                    <span class="product-item__currency">р.</span>
+                </div>
+                <div class="product-item__discount">
+                    <output class="product-item__amount">35000</output>
+                    <span class="product-item__currency">р.</span>
+                </div>
+                <div class="product-item__label">
+                    <span class="product-item__currency">-</span>
+                    <output class="product-item__amount">10</output>
+                    <span class="product-item__currency">%</span>
+                </div>
+                <form class="product-checkout">
+                    <input type="image" src="#" alt="добавить в корзину" class="product-checkout__icon">
+                    <input type="image" src="#" alt="быстрый заказ" class="product-checkout__fast">
+                </form>
+            </figure>
+            <figure class="product-item">
+                <img src="#" alt="товар" class="product-item__image">
+                <figcaption class="product-item__title">Labuten-lady</figcaption>
+                <div class="product-item__price">
+                    <output class="product-item__amount">42700</output>
+                    <span class="product-item__currency">р.</span>
+                </div>
+                <div class="product-item__discount">
+                    <output class="product-item__amount">35000</output>
+                    <span class="product-item__currency">р.</span>
+                </div>
+                <div class="product-item__label">
+                    <span class="product-item__currency">-</span>
+                    <output class="product-item__amount">10</output>
+                    <span class="product-item__currency">%</span>
+                </div>
+                <form class="product-checkout">
+                    <input type="image" src="#" alt="добавить в корзину" class="product-checkout__icon">
+                    <input type="image" src="#" alt="быстрый заказ" class="product-checkout__fast">
+                </form>
+            </figure>
+            <figure class="product-item">
+                <img src="#" alt="товар" class="product-item__image">
+                <figcaption class="product-item__title">Labuten-lady</figcaption>
+                <div class="product-item__price">
+                    <output class="product-item__amount">42700</output>
+                    <span class="product-item__currency">р.</span>
+                </div>
+                <div class="product-item__discount">
+                    <output class="product-item__amount">35000</output>
+                    <span class="product-item__currency">р.</span>
+                </div>
+                <div class="product-item__label">
+                    <span class="product-item__currency">-</span>
+                    <output class="product-item__amount">10</output>
+                    <span class="product-item__currency">%</span>
+                </div>
+                <form class="product-checkout">
+                    <input type="image" src="#" alt="добавить в корзину" class="product-checkout__icon">
+                    <input type="image" src="#" alt="быстрый заказ" class="product-checkout__fast">
+                </form>
+            </figure>
+             <!--TODO решить вопрос с svg icon  в кнопках формы. Скорее всего нужно сделать не форму, а кнопку для перемещение в корзину.-->
+        </div>
+    </section>
+</main>
+<aside class="aside">
+    <nav class="left-menu">
+        <h4 class="left-menu__title">Категории</h4>
+        <ul class="left-menu-items">
+            <li class="left-menu-items__item">
+                <a href="#" class="left-menu-items__link">
+                    <img src="#" alt="вечерние" class="left-menu-items__icon">
+                    Вечерние
+                </a>
+            </li>
+            <li class="left-menu-items__item">
+                <a href="#" class="left-menu-items__link">
+                    <img src="#" alt="свадебные" class="left-menu-items__icon">
+                    Свадебные
+                </a>
+            </li>
+            <li class="left-menu-items__item">
+                <a href="#" class="left-menu-items__link">
+                    <img src="#" alt="бальные" class="left-menu-items__icon">
+                    Бальные
+                </a>
+            </li>
+            <li class="left-menu-items__item">
+                <a href="#" class="left-menu-items__link">
+                    <img src="#" alt="повседневные" class="left-menu-items__icon">
+                    Повседневные
+                </a>
+            </li>
+            <li class="left-menu-items__item">
+                <a href="#" class="left-menu-items__link">
+                    <img src="#" alt="особенные" class="left-menu-items__icon">
+                    Особенные
+                </a>
+            </li>
+            <li class="left-menu-items__item">
+                <a href="#" class="left-menu-items__link">
+                    <img src="#" alt="обыкновенные" class="left-menu-items__icon">
+                    Обыкновенные
+                </a>
+            </li>
+            <li class="left-menu-items__item">
+                <a href="#" class="left-menu-items__link">
+                    <img src="#" alt="оригинальные" class="left-menu-items__icon">
+                    Оригинальные
+                </a>
+            </li>
+            <li class="left-menu-items__item">
+                <a href="#" class="left-menu-items__link">
+                    <img src="#" alt="космические" class="left-menu-items__icon">
+                    Космические
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="adverts-block">
+        <div class="adverts-block-top">
+            <a href="#" class="adverts-block-top__link">
+                <img src="#" alt="#" class="adverts-block-top__image">
+            </a>
+        </div>
+        <div class="adverts-block-bottom">
+            <a href="#" class="adverts-block-bottom__link">
+                <img src="#" alt="#" class="adverts-block-bottom__image">
+            </a>
+        </div>
+    </div>
+</aside>
+<footer class="footer">
+    <div class="footer-top">
+        <div class="header-logo">
+            <img src="#" alt="logo" class="header-logo__img">
+            <span class="header-logo_title">nalabuten.ah</span>
+            <span class="header-logo_subtitle">unrealizable dreams</span>
+        </div>
+        <div class="footer-item">
+            <h4 class="footer-item__title">Меню</h4>
+            <ul class="main-menu_items">
+                <li class="main-menu-items__item"><a href="#">Главная</a></li>
+                <li class="main-menu-items__item active"><a href="#">Каталог</a></li>
+                <li class="main-menu-items__item"><a href="#">Галерея</a></li>
+                <li class="main-menu-items__item"><a href="#">Акции</a></li>
+                <li class="main-menu-items__item"><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+        <!--TODO Утрочнить как связать BEM и универсальность блоков-->
+        <div class="footer-item">
+            <h4 class="footer-item__title">Способы оплаты</h4>
+            <ul class="main-menu_items">
+                <li class="main-menu-items__item"><a href="#">Наличными</a></li>
+                <li class="main-menu-items__item active"><a href="#">Visa или Mastercard</a></li>
+                <li class="main-menu-items__item"><a href="#">В кредит</a></li>
+            </ul>
+        </div>
+        <div class="footer-item">
+            <h4 class="footer-item__title">Контактная информация</h4>
+            <ul class="header-contacts">
+                <li class="header-contacts__item"><img src="#" alt="phone" class="header-contacts__icon">
+                    <address class="header-contacts__info"><a href="tel:tel:88006845594" class="header-contacts__link">tel:8(800)6845594</a></address>
+                </li>
+                <li class="header-contacts__item"><img src="#" alt="mailto" class="header-contacts__icon">
+                    <address class="header-contacts__info"><a href="mailto:info@nalabuten.ah" class="header-contacts__link">info@nalabuten.ah</a></address>
+                </li>
+                <li class="header-contacts__item"><img src="#" alt="mailto" class="header-contacts__icon">
+                    <address class="header-contacts__info"><a href="#" class="header-contacts__link__map">Адрес: <span class="ymaps-geolink">
+   Москва, ул. Крылатские холмы, 26
+</span></a></address>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <small class="footer-bottom__copyright">&copy;Nalabutenah
+            <time datetime="2017">2017</time>
+        </small>
+    </div>
+</footer>
+
+
+</body>
+</html>
